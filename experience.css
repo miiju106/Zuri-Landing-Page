@@ -33,11 +33,12 @@
   .first-containerDiv1 > p {
     text-align: center;
     font-size: 14px !important;
+    
   }
   .first-containerDiv1 > div {
     display: flex;
     justify-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
   }
   .hire-btn {
     padding: 0.5em 1em !important;
@@ -46,20 +47,46 @@
   .join-btn {
     padding: 0.5em 1em !important;
   }
-  .second-containerDiv2 {
-    display: none;
+  .second-containerDiv{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
+  .second-container{
+    background-size: cover;
+    background-position: left !important;
+  }
+  .second-containerDiv2 > img{
+    width: 250px !important;
+    margin-top: 2em;
+  }
+  
+    
   .second-containerDiv1 > h1 {
-    font-size: 27px !important;
+    font-size: 24px !important;
   }
   .second-containerDiv1 > h5 {
     font-size: 18px !important;
   }
   .second-containerDiv1 > p {
     font-size: 17px !important;
+    
   }
+  .country-div{
+    flex-flow: row wrap;
+  }
+  .ger-img,
+.eng-img,
+.nig-img,
+.india-img,
+.usa-img {
+  width: 20px !important;
+}
+  
+
   .third-containerDiv1 > h1 {
-    font-size: 27px !important;
+    font-size: 26px !important;
   }
   .talentDiv1 {
     flex-flow: row wrap;
@@ -175,6 +202,7 @@ body {
 .first-containerDiv1 > p {
   font-size: 20px;
   margin-bottom: 1em;
+  color:#787878;
 }
 
 .first-containerDiv {
@@ -184,6 +212,19 @@ body {
 }
 .first-containerDiv2 > img {
   width: 400px;
+}
+.talent{
+  color: red;
+}
+.thick2{
+  width:80px;
+}
+.thick-line{
+  display: flex;
+ justify-content: end;
+ margin-top: -2em;
+ 
+
 }
 .hire-btn {
   background-color: red;
@@ -219,7 +260,9 @@ body {
 .second-containerDiv1 > p {
   font-size: 20px;
   margin-bottom: 0.5em;
+  color:#787878;
 }
+
 .second-containerDiv2 > img {
   width: 370px;
 }
@@ -233,6 +276,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
+  
 }
 .country {
   background-color: white;
@@ -331,6 +375,7 @@ body {
 .fourth-subdiv > p {
   text-align: center;
   font-size: 16px;
+  color:#787878;
 }
 .footer-container {
   background-color: rgb(22, 22, 23);
